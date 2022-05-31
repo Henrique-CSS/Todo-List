@@ -1,0 +1,46 @@
+.container {
+    margin-inline: max(2rem);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#todo_input {
+    margin-top: 40px;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+#todo_btn {
+    width: 100px;
+    height: 35px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+#List-todo:not(:empty) {
+    text-align: left;
+    width: fit-content;
+    max-width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+#List-todo input {
+    margin-top: 10px;
+    transition: all 0.2s;
+}
+#List-todo input:first-of-type {
+    margin-top: 0px;
+}
+#List-todo input:hover {
+    transform: scale(1.1);
+    transition: all 0.2s;
+}
+#List-todo input:hover {
+    transform: scale(1.1);
+    transition: all 0.2s;
+}
+#List-todo input:checked + .itens{
+    text-decoration: line-through;
+    color: #ccc;
+}
